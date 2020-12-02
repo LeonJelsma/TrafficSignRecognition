@@ -1,0 +1,3 @@
+0 Stop
+1 Road Work
+2 Pedestrians
