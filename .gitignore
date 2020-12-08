@@ -11,3 +11,6 @@
 
 /.gradle/
 /.idea/
+app/build/
+lib_support/build/
+lib_task_api/build/
