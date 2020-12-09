@@ -49,12 +49,12 @@ public class ClassifierRoadSignLite extends Classifier {
         // you can download this file from
         // see build.gradle for where to obtain this file. It should be auto
         // downloaded into assets.
-        return "model_unquant.tflite";
+        return "model_traffic.tflite";
     }
 
     @Override
     protected String getLabelPath() {
-        return "labels_road_sign_lite.txt";
+        return "labels_traffic.txt";
     }
 
     @Override
