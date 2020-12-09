@@ -97,7 +97,7 @@ public abstract class CameraActivity extends AppCompatActivity
   private Spinner deviceSpinner;
   private TextView threadsTextView;
 
-  private Model model = Model.QUANTIZED_EFFICIENTNET;
+  private Model model = Model.ROAD_SIGN_LITE;
   private Device device = Device.CPU;
   private int numThreads = -1;
 
@@ -189,7 +189,7 @@ public abstract class CameraActivity extends AppCompatActivity
     plusImageView.setOnClickListener(this);
     minusImageView.setOnClickListener(this);
 
-    model = Model.QUANTIZED_EFFICIENTNET;
+    model = Model.ROAD_SIGN_LITE;
     device = Device.valueOf(deviceSpinner.getSelectedItem().toString());
     numThreads = Integer.parseInt(threadsTextView.getText().toString().trim());
   }
