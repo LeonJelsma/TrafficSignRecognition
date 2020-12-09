@@ -113,7 +113,7 @@ public abstract class Classifier {
    */
   public static Classifier create(Activity activity, Model model, Device device, int numThreads)
       throws IOException {
-    if (model == Model.QUANTIZED_MOBILENET) {
+    if (model == Model.ROAD_SIGN_LITE) {
       return new ClassifierRoadSignLite(activity, device, numThreads);
     } else {
       throw new UnsupportedOperationException();
