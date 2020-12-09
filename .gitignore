@@ -9,6 +9,8 @@
 /captures
 .externalNativeBuild
 
+out/
+build/
 /.gradle/
 /.idea/
 app/build/
